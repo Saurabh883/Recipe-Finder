@@ -16,8 +16,7 @@ async function searchRecipes() {
 
 function displayRecipes(recipes) {
     let html = '';
-    recipes.forEach((recipe) 
-=> {
+    recipes.forEach((recipe) => {
         html += `
         <div>
             <img src="${recipe.recipe.image}" alt="${recipe.recipe.label}">
